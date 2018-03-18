@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.ferdi.ferdi_1202152160_modul4.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_centerInParent="true"
+        android:layout_margin="16dp">
+        <Button
+            android:id="@+id/btnListNama"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="List Nama Mahasiswa"/>
+        <Button
+            android:id="@+id/btnCariGambar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Pencari Gambar"/>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Muhammad Ferdi Kurniawan"
+        android:gravity="center"
+        android:layout_alignParentBottom="true"
+        android:padding="16dp"/>
+
+</RelativeLayout>
